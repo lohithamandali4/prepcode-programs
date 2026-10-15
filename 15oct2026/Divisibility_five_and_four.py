@@ -1,0 +1,6 @@
+n = int(input("Enter a number: "))
+
+if n % 5 == 0 and n % 4 == 0:
+    print("Divisible by both 5 and 4")
+else:
+    print("Not divisible by both 5 and 4")
